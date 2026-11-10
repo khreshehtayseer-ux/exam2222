@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>امتحان اللغة الإنجليزية (متقدم) – التوجيهي 2026</title>
+<style>
+:root{--bg:#f5f6fa;--card:#fff;--tx:#1b1f2a;--mu:#5d6475;--pr:#1f5fbf;--bd:#d9dde8;--ok:#1a8f4c;--no:#c62828;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151c;--card:#1c2130;--tx:#e8eaf0;--mu:#9aa2b5;--pr:#6fa3f5;--bd:#303750;--ok:#4cc784;--no:#ff7b7b}}
+html{color-scheme:light dark}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Tahoma,Arial,sans-serif;line-height:1.6;user-select:none;-webkit-user-select:none}
+.w{max-width:760px;margin:0 auto;padding:14px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:12px}
+h1{font-size:20px;margin:0 0 4px}.m{color:var(--mu);font-size:14px}
+input[type=text]{width:100%;padding:12px;font-size:16px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);box-sizing:border-box;margin:10px 0}
+button{background:var(--pr);color:#fff;border:0;border-radius:8px;padding:12px 22px;font-size:16px;cursor:pointer;font-family:inherit}
+.en{direction:ltr;text-align:left}
+.p{background:var(--bg);border-inline-start:4px solid var(--pr);padding:10px;border-radius:6px;margin-bottom:10px;font-size:15px}
+label{display:block;padding:8px 10px;border:1px solid var(--bd);border-radius:8px;margin:6px 0;cursor:pointer}
+label:has(input:checked){border-color:var(--pr);background:var(--bg)}
+label.ok{border-color:var(--ok);background:rgba(26,143,76,.15)}label.no{border-color:var(--no);background:rgba(198,40,40,.12)}
+#bar{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--bd);padding:8px 14px;display:flex;justify-content:space-between;font-size:14px;z-index:5}
+#md{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;z-index:20;padding:20px}
+#md div{background:var(--card);padding:24px;border-radius:12px;max-width:420px;text-align:center}
+.big{font-size:56px;font-weight:bold;color:var(--pr)}
+</style></head><body>
+<div class="w" id="app"></div>
+<div id="md"><div><h2 style="color:var(--no)">⚠️ تنبيه أول</h2><p>تم رصد خروجك من صفحة الامتحان. هذا هو التحذير الوحيد؛ في المرة القادمة سيتم إنهاء امتحانك فوراً.</p><button onclick="md.style.display='none'">متابعة الامتحان</button></div></div>
+<script>
+const T="معلم المادة: محمد تيسير الخرشة";
+const Q=[
+["Many people do feel they take on a new identity when using another language. A 2006 study of bilingual Mexican-Americans asked them to take a personality test in both English and Spanish. Amazingly, the results varied, depending on which language each individual was using. Undoubtedly, how much you pick up a culture alongside a language will depend on how and why you are learning it, but it’s fascinating to consider that you might actually be a (slightly) different person when speaking a second language.","In the above text, the author ………",["points out shortcomings in a specific piece of research.","suggests an alternative explanation for linguistic relativity.","refers to research into the effect of language on character.","mentions a benefit to perceiving the world differently."],2],
+["More people crammed onto the platform. The crowd inched closer to the yellow line as the train appeared and gradually rumbled to a stop. When the doors slid open, the passengers alighting had to elbow their way through the sea of people entering the carriages. The fact that there wasn’t a better system was <u>something</u> that surprised Malek.","The underlined indefinite pronoun “something” refers to ………",["a better system","the sea of people","entering the carriages","the fact"],3],
+["Possibly, the first thing we can take from economics is the importance of doing a cost-benefit analysis when making big decisions. Comfortable though we may be with making a list of pros and cons, we should recognise that it is actually a rather ineffective tool. Just one of the cons might easily outweigh all of the pros. A cost-benefit analysis is something altogether more sophisticated, which allows you to be more objective.","The text considers that making a list of pros and cons isn’t very effective because ………",["it doesn’t take the relative importance into account.","it gives a false illusion of control over the outcome.","we only use it because we’re used to doing it.","a problem isn’t always just about two alternatives."],0],
+["But then, oh no – the detective goes into a fish and chip shop. Your senses are suddenly on full alert. You can smell the vinegar, hear the chips sizzling in the fryer, and your stomach rumbles. The policeman bites into the fish, and your mouth starts to water.","Which sense is indicated by the phrase ‘chips sizzling’?",["Sight","Hearing","Touch","Taste"],1],
+["They also teach coping skills for dealing with anxiety and intense career stress - for example, using muscle relaxation, breathing exercises and meditation. When players get injured, the sports psychologist supports them through their recovery with a customised programme for their physical pain management as well as their mental wellness. If a player’s confidence becomes eroded by an injury, the sports psychologist works closely with them, strategically building the player back up to a position of self-belief.","What is the main purpose of teaching coping skills to athletes?",["To remove physical injuries completely.","To help them deal with anxiety and career stress.","To improve their physical strength.","To shorten their recovery time."],1],
+["‘How to become a happier you’ is a hot topic at the moment and we are inundated with advice and tips online. There is an abundance of websites with surveys, questionnaires, tips and shared personal experiences available to us. Even schools are running mindfulness classes for their students as part of the curriculum.","The writer’s purpose is to ………",["advise on ways to maintain a calm outer appearance.","name the resources which can improve our outlook.","explain how we mentally process negative emotions.","underline the dangers of working in certain industries."],1],
+["“I love smooth words, like gold-enamelled fish<br>Which circle slowly with a silken swish,<br>And tender ones, like downy-feathered birds:<br>Words shy and dappled, deep-eyed deer inherds”.","An example of the poetic device onomatopoeia in the lines above is ………",["swish","smooth","tender","silken"],0],
+["Socialising is also a great thing, especially after a long and difficult week, or if you’re just feeling a little bit lonely on a random Tuesday evening. I’m not saying you need to be out with friends every day, but being sociable and gregarious is definitely advantageous for our minds and bodies.","The text above is mostly ………",["for having friends","against having friends","welcoming loneliness","with being out with friends daily"],0],
+["I think a lot of people are really interested in optical illusions. However, it left me feeling underwhelmed. As they had chosen the most famous ones, I’d already seen them numerous times. I mean, who hasn’t seen the Northern Lights in Iceland by now? I also felt that the elaborate explanations about how the illusions worked were a little patronising and treated the audience as if they were children.","The writer felt disappointed because ………",["a lot of people are interested in optical illusions.","the illusions were too difficult to understand by the audience.","he had already seen the illusions many times before.","he hasn’t seen the Northern Lights in Iceland."],2],
+["Bucking the trend, there is one new fantasy-driven aspiration, probably destined to remain <u>a pipe dream</u> for most, that has joined the most popular list – and that’s becoming a racing car driver.","The synonym of the underlined words in the text above is ………",["impossible to realise","dream profession","coveted","envisaged"],0],
+["The colts who live here are very good colts, but they are cart-horse colts, and of course they have not learned manners. You have been well-bred and well-born; <u>your father has a great name in these parts</u>, and your grandfather won the cup two years at the Newmarket races. I hope you will grow up gentle and good and never learn bad ways.","The underlined sentence from Black Beauty shows Black Beauty’s father’s ………",["reputation","races","breeding","colts"],0],
+["The British are fond of understatement and self-deprecation. You might hear ‘It’s rather warm,’ when in fact the temperatures are over 40 degrees, and a best-selling writer might say ‘I’ve had some success,’ also reflecting the traditional embarrassment with success. This apparent humility is approved of by fellow British people, and many comedians and films use understatement, self-deprecation and extreme politeness as a source of word play comedy.","The British people are good at using understatement in jokes because ………",["they often say ‘It’s rather warm.","they value humility.","they prefer hyperbole.","they avoid extreme politeness."],1],
+["","What kind of car would we ideally ………?",["plump for","be in line with","click with","set great store by"],0],
+["","I’m amazed at how they managed to ……… so many innovative ideas.",["set out","hold off on","set up","come up with"],3],
+["","It was because of Suha’s commitment that the new rail project was successful. She was the driving ……… behind it.",["force","plain","steer","ride"],0],
+["","I think it is blindingly ……… that there is a serious issue with your system.",["opposed","mistaken","overrated","obvious"],3],
+["","I’m not sure about buying a car now because I didn’t realise how big the ……… would be.",["outset","outcome","breakthrough","outlay"],3],
+["","When I looked at the ………, I almost passed out. It was so expensive!",["sales gimmick","start-ups","price tag","impulse buys"],2],
+["<b>Huda:</b> Can we <u>try and meet halfway on this</u>? Would 7.50 dinars be OK?<br><b>Sameera:</b> Yes, that works for me, thanks.","The underlined part of the above dialogue refers to ……… when negotiating.",["asking for what you want","acknowledging another person’s suggestions","refusing an offer","trying to get to a win-win situation"],3],
+["Omar <u>pressured</u> the team into taking responsibility.","The underlined word in the sentence above means ………",["coaxed","urged","cajoled","enticed"],1],
+["","We used to dip ……… of oranges into sugar as a snack when we were children.",["segments","slabs","scoops","cloves"],0],
+["","You won’t pass unless you start applying yourself ……… your work.",["on","with","for","to"],3],
+["","The child ……… his teeth in his sleep whenever he has a bad dream.",["twirls","shrugs","flicks","grinds"],3],
+["","He wasn’t really criticising your painting; it was just a ……… comment.",["mediocre","jaw-dropping","tongue-in-cheek","gimmicky"],2],
+["","No one will ……… you if you decide not to volunteer to help us.",["hold off on","hold it against","come down hard","come out with"],1],
+["","The recent progress in renewable energy has raised ……… that current energy sources will be replaced soon.",["eyebrows","dreams","questions","hopes"],3],
+["How often does Salma <u>get very angry</u> at her colleagues?","The idiom that can replace the underlined phrase in the question above is ………",["blow a fuse","cut out for","land in your lap","stuck in a rut"],0],
+["I have been reading a book about wildlife in Jordan.","This sentence means ………",["I have finished reading the book.","I was reading the book.","I am still reading the book.","I will be reading the book."],2],
+["I have never had a problem with my passport.","The correct negative inversion of the sentence above is ………",["At no time I have ever had a problem with my passport.","At no time have I ever had a problem with my passport.","At no time I ever have had a problem with my passport.","At no time had I ever had a problem with my passport."],1],
+["People think that shopping will always be a social experience.","The correct passive form of the sentence above is ………",["It is thought that shopping will always be a social experience.","It was thought that shopping will always be a social experience.","It is thought that shopping would always be a social experience.","It was thought that shopping would always be a social experience."],0],
+["The trees provide shade so that the soil isn’t dried out by the sun.","The above sentence can be rewritten using conditional sentences with inversion as ………",["The trees should not provide shade, the soil would be dried out by the sun.","Should the trees not provide shade, the soil would be dried out by the sun.","Should the trees provide shade, the soil would be dried out by the sun.","Should the trees not provide shade, the soil wouldn’t be dried out by the sun."],1],
+["","If cattle ……… on ecological grass, we ……… healthier meat and milk.",["grazed / ’ll have got","graze / ’d get","had grazed / ’ll get","graze / ’ll get"],3],
+["","Rana ……… have been here earlier, that’s certainly her umbrella on the table.",["could","mustn’t","can’t","must"],3],
+["You shouldn’t have told him the bad news.","The correct sentence that has the same meaning as the one above is ………",["You weren’t forbidden to tell him the bad news.","You aren’t supposed to tell him the bad news.","You weren’t supposed to tell him the bad news.","You aren’t forbidden to tell him the bad news."],2],
+["","Ahmed stopped ……… so much junk food because he wanted to lose weight.",["to eat","eating","eat","having eaten"],1],
+["Najwa will keep leaving the lights on in every room. I have told her many times to switch them off.","The use of “will” in the sentence above indicates ………",["presumption about the past","deduction about the present","promise in the future","annoying typical behaviour"],3],
+["","That’s …… teacher I was telling you about, who wrote ……book about …… Petra.",["the / the / Ø","a / a / the","the / Ø / Ø","Ø / the / Ø"],0],
+["<u>No matter what</u> he says, she refuses to change her decision.","The underlined part of the sentence above can be replaced with ………",["Whichever","Whenever","Whoever","Whatever"],3],
+["","Hassan attracted many students to his studio, many ……… became notable artists in their own right.",["of whom","from whom","in which","of which"],0],
+["It was claimed that an Italian scientist discovered the formula, but it was actually a German.","The correct passive form of the sentence above is ………",["An Italian scientist claimed to have discovered the formula, but actually it was a German.","An Italian scientist was claimed to discover the formula, but actually it was a German.","An Italian scientist was claimed to have discovered the formula, but actually it was a German.","An Italian scientist is claimed to have discovered the formula, but actually it was a German."],2],
+["‘Don’t forget to bring your passport with you!’","The travel agent reminded me ………",["not to bring my passport with me.","bringing my passport with me.","to bring my passport with me.","bring my passport with me."],2],
+["I took my son with me everywhere I went.","The sentence that has the same meaning as the one above is ………",["No matter where I went, I took my son with me.","No matter where I went, I didn’t take my son with me.","No matter when I went, I took my son with him.","No matter when I went, I didn’t take my son with me."],0],
+["The restaurant is easily accessed from a rear car park, which has contributed to its success.","The above sentence can be rewritten using nominalisation as ………",["Easy access from a rear car park has contributed to the restaurant’s success.","The rear car park makes it easy to access the restaurant, contributing to its success.","It is easy to access the restaurant from a rear car park, so it became successful.","The restaurant is easy to access from a rear car park and it has contributed to its success."],0],
+["<u>Due to the fact that I memorised</u> certain poems at school, I can still recite them.","The correct participle clause that can replace the underlined part is ………",["Memorising","Having recited","Having memorised","Not being memorised"],2],
+["","The correct phrase to start the conclusion in a report is ………",["This report will serve as a record of","The report sets out to","Overall, this experience","The purpose of this report is to"],2],
+["","When writing an article you are advised to give your article ……… title to interest the reader.",["an intriguing","a complex","a long","a boring"],0],
+["They have made a mistake.","The sentence above can be rewritten using hedging as ………",["They seem to have perhaps made a mistake.","They have definitely made a mistake.","They are clearly wrong.","It is obvious that they have made a mistake"],0],
+["","Children often have a powerful ……… that helps them create fantasy worlds.",["imagine","imaginatively","imaginative","imagination"],3],
+["The purpose of this proposal is to suggest new strategies for reducing waste.","In a proposal, the sentence above fits best in the ……… section.",["conclusion","recommendations and benefits","introduction","information about the current situation"],2],
+["","The sentence from the items below that best shows an example of hyperbole is ………",["Climbing Mount Everest is no big deal.","I have told you a million times to clean your room!","The food is just slightly overcooked.","Saying that wasn’t exactly the best idea."],1]
+];
+const app=document.getElementById('app'),md=document.getElementById('md');
+let name='',viol=0,run=false,left=7200,tm;
+function login(){app.innerHTML=`<div class="c"><h1>امتحان شهادة الدراسة الثانوية العامة 2026</h1><div class="m">اللغة الإنجليزية (متقدم) – نموذج (1) – ${T}</div>
+<p>الأسئلة: 50 سؤالاً – العلامة من 100 – المدة: ساعتان</p>
+<p class="m">⚠️ نظام منع الغش: الخروج من صفحة الامتحان أو التبديل إلى تطبيق آخر يعطيك <b>تنبيهاً واحداً</b>، وفي المرة الثانية يُنهى الامتحان تلقائياً.</p>
+<input type="text" id="nm" placeholder="اكتب اسمك الثلاثي" autocomplete="off"><div id="er" style="color:var(--no)"></div>
+<button onclick="start()">ابدأ الامتحان</button></div>`}
+function start(){const v=document.getElementById('nm').value.trim().replace(/\s+/g,' ');
+if(v.split(' ').length<3){document.getElementById('er').textContent='الرجاء إدخال الاسم الثلاثي كاملاً (ثلاث كلمات على الأقل).';return}
+name=v;run=true;
+let h=`<div id="bar"><span>${name}</span><span id="tt">02:00:00</span></div><div class="en" style="padding-top:10px">`;
+Q.forEach((q,i)=>{h+=`<div class="c" id="q${i}">${q[0]?`<div class="p">${q[0]}</div>`:''}<b>${i+1}) ${q[1]}</b>`+q[2].map((o,j)=>`<label><input type="radio" name="r${i}" value="${j}"> ${'ABCD'[j]}) ${o}</label>`).join('')+`</div>`});
+h+=`</div><div class="c" style="text-align:center"><button onclick="if(confirm('هل تريد تسليم الامتحان؟'))fin('تسليم')">تسليم الامتحان</button></div>`;
+app.innerHTML=h;window.scrollTo(0,0);
+tm=setInterval(()=>{left--;const s=n=>String(n).padStart(2,'0');document.getElementById('tt').textContent=s(left/3600|0)+':'+s(left%3600/60|0)+':'+s(left%60);if(left<=0)fin('انتهى الوقت')},1000)}
+function viol_(){if(!run)return;viol++;if(viol==1)md.style.display='flex';else fin('تم إنهاء الامتحان بسبب الخروج من الصفحة للمرة الثانية')}
+document.addEventListener('visibilitychange',()=>{if(document.hidden)viol_()});
+window.addEventListener('blur',()=>{if(md.style.display!=='flex')setTimeout(()=>{if(!document.hasFocus())viol_()},300)});
+['contextmenu','copy','cut','paste'].forEach(e=>document.addEventListener(e,x=>{if(run)x.preventDefault()}));
+function fin(why){if(!run)return;run=false;md.style.display='none';clearInterval(tm);
+let s=0,h='';Q.forEach((q,i)=>{const r=document.querySelector(`input[name=r${i}]:checked`),a=r?+r.value:-1;if(a==q[3])s++;
+h+=`<div class="c en"><b>${i+1}) ${q[1]}</b>`+q[2].map((o,j)=>`<label class="${j==q[3]?'ok':j==a?'no':''}">${'ABCD'[j]}) ${o}${j==q[3]?' ✓':''}</label>`).join('')+`</div>`});
+app.innerHTML=`<div class="c" style="text-align:center"><div class="m">${why}</div><h1>${name}</h1><div class="big">${s*2} / 100</div><div class="m">الإجابات الصحيحة: ${s} من 50 – ${T}</div></div>${h}`;window.scrollTo(0,0)}
+login();
+</script></body></html>
